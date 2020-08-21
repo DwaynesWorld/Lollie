@@ -12,11 +12,21 @@
 		686645D524F08550009AFE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686645D424F08550009AFE35 /* SceneDelegate.swift */; };
 		686645D724F08550009AFE35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686645D624F08550009AFE35 /* ContentView.swift */; };
 		686645D924F08551009AFE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686645D824F08551009AFE35 /* Assets.xcassets */; };
-		686645DC24F08551009AFE35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686645DB24F08551009AFE35 /* Preview Assets.xcassets */; };
-		686645DF24F08551009AFE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686645DD24F08551009AFE35 /* LaunchScreen.storyboard */; };
 		686645EA24F08551009AFE35 /* LollieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686645E924F08551009AFE35 /* LollieTests.swift */; };
 		686645F524F08551009AFE35 /* LollieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686645F424F08551009AFE35 /* LollieUITests.swift */; };
 		687C3ECE24F0895A00E01B34 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 687C3ECD24F0895A00E01B34 /* PartialSheet */; };
+		687C3EDF24F08AFE00E01B34 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED224F08AFE00E01B34 /* RoundedCorner.swift */; };
+		687C3EE024F08AFE00E01B34 /* PageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED524F08AFE00E01B34 /* PageViewContainer.swift */; };
+		687C3EE124F08AFE00E01B34 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED624F08AFE00E01B34 /* PageIndicator.swift */; };
+		687C3EE224F08AFE00E01B34 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED724F08AFE00E01B34 /* PageViewController.swift */; };
+		687C3EE324F08AFE00E01B34 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED824F08AFE00E01B34 /* PageView.swift */; };
+		687C3EE424F08AFE00E01B34 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3ED924F08AFE00E01B34 /* ActivityIndicator.swift */; };
+		687C3EE524F08AFE00E01B34 /* LabeledSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3EDA24F08AFE00E01B34 /* LabeledSecureField.swift */; };
+		687C3EE624F08AFE00E01B34 /* LabeledTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3EDB24F08AFE00E01B34 /* LabeledTextEditor.swift */; };
+		687C3EE724F08AFE00E01B34 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3EDC24F08AFE00E01B34 /* LottieView.swift */; };
+		687C3EE824F08AFE00E01B34 /* LabeledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3EDD24F08AFE00E01B34 /* LabeledTextField.swift */; };
+		687C3EE924F08AFE00E01B34 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C3EDE24F08AFE00E01B34 /* LoadingView.swift */; };
+		687C3EEE24F08C2100E01B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687C3EED24F08C2100E01B34 /* Preview Assets.xcassets */; };
 		7F1FED553A3F655012EF8230 /* Pods_Lollie_LollieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B83401BC427DB345F61C48A /* Pods_Lollie_LollieUITests.framework */; };
 		FDE47983B64F1D9537384DA1 /* Pods_LollieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599F0807640677DD3C94E469 /* Pods_LollieTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,8 +57,6 @@
 		686645D424F08550009AFE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		686645D624F08550009AFE35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		686645D824F08551009AFE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		686645DB24F08551009AFE35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		686645DE24F08551009AFE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		686645E024F08551009AFE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		686645E524F08551009AFE35 /* LollieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LollieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686645E924F08551009AFE35 /* LollieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollieTests.swift; sourceTree = "<group>"; };
@@ -56,6 +64,19 @@
 		686645F024F08551009AFE35 /* LollieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LollieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686645F424F08551009AFE35 /* LollieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollieUITests.swift; sourceTree = "<group>"; };
 		686645F624F08551009AFE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687C3ED224F08AFE00E01B34 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		687C3ED524F08AFE00E01B34 /* PageViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewContainer.swift; sourceTree = "<group>"; };
+		687C3ED624F08AFE00E01B34 /* PageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		687C3ED724F08AFE00E01B34 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		687C3ED824F08AFE00E01B34 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		687C3ED924F08AFE00E01B34 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		687C3EDA24F08AFE00E01B34 /* LabeledSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledSecureField.swift; sourceTree = "<group>"; };
+		687C3EDB24F08AFE00E01B34 /* LabeledTextEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledTextEditor.swift; sourceTree = "<group>"; };
+		687C3EDC24F08AFE00E01B34 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		687C3EDD24F08AFE00E01B34 /* LabeledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledTextField.swift; sourceTree = "<group>"; };
+		687C3EDE24F08AFE00E01B34 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		687C3EED24F08C2100E01B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		687C3EF024F08E0300E01B34 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/KT/Dev/personal/Lollie/lollie-ios/Sources/Lollie/Resources/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
 		6927947406E21B1971FE7CA1 /* Pods-Lollie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lollie.debug.xcconfig"; path = "Target Support Files/Pods-Lollie/Pods-Lollie.debug.xcconfig"; sourceTree = "<group>"; };
 		8B83401BC427DB345F61C48A /* Pods_Lollie_LollieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lollie_LollieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4337FCEDE3E8C3EDA2D6E8 /* Pods-LollieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LollieTests.release.xcconfig"; path = "Target Support Files/Pods-LollieTests/Pods-LollieTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,23 +162,11 @@
 		686645D124F08550009AFE35 /* Lollie */ = {
 			isa = PBXGroup;
 			children = (
-				686645D224F08550009AFE35 /* AppDelegate.swift */,
-				686645D424F08550009AFE35 /* SceneDelegate.swift */,
-				686645D624F08550009AFE35 /* ContentView.swift */,
-				686645D824F08551009AFE35 /* Assets.xcassets */,
-				686645DD24F08551009AFE35 /* LaunchScreen.storyboard */,
-				686645E024F08551009AFE35 /* Info.plist */,
-				686645DA24F08551009AFE35 /* Preview Content */,
+				687C3EEA24F08B1C00E01B34 /* Application */,
+				687C3EEB24F08B4100E01B34 /* Resources */,
+				687C3ECF24F08AFE00E01B34 /* Views */,
 			);
 			path = Lollie;
-			sourceTree = "<group>";
-		};
-		686645DA24F08551009AFE35 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				686645DB24F08551009AFE35 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		686645E824F08551009AFE35 /* LollieTests */ = {
@@ -176,6 +185,85 @@
 				686645F624F08551009AFE35 /* Info.plist */,
 			);
 			path = LollieUITests;
+			sourceTree = "<group>";
+		};
+		687C3ECF24F08AFE00E01B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				687C3ED024F08AFE00E01B34 /* Common */,
+				686645D624F08550009AFE35 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		687C3ED024F08AFE00E01B34 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				687C3ED124F08AFE00E01B34 /* Shapes */,
+				687C3ED324F08AFE00E01B34 /* Components */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		687C3ED124F08AFE00E01B34 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				687C3ED224F08AFE00E01B34 /* RoundedCorner.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		687C3ED324F08AFE00E01B34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				687C3ED424F08AFE00E01B34 /* PageView */,
+				687C3ED924F08AFE00E01B34 /* ActivityIndicator.swift */,
+				687C3EDA24F08AFE00E01B34 /* LabeledSecureField.swift */,
+				687C3EDB24F08AFE00E01B34 /* LabeledTextEditor.swift */,
+				687C3EDC24F08AFE00E01B34 /* LottieView.swift */,
+				687C3EDD24F08AFE00E01B34 /* LabeledTextField.swift */,
+				687C3EDE24F08AFE00E01B34 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		687C3ED424F08AFE00E01B34 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				687C3ED524F08AFE00E01B34 /* PageViewContainer.swift */,
+				687C3ED624F08AFE00E01B34 /* PageIndicator.swift */,
+				687C3ED724F08AFE00E01B34 /* PageViewController.swift */,
+				687C3ED824F08AFE00E01B34 /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		687C3EEA24F08B1C00E01B34 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				686645D224F08550009AFE35 /* AppDelegate.swift */,
+				686645D424F08550009AFE35 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		687C3EEB24F08B4100E01B34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				687C3EEC24F08C2100E01B34 /* Preview Content */,
+				686645E024F08551009AFE35 /* Info.plist */,
+				687C3EF024F08E0300E01B34 /* LaunchScreen.storyboard */,
+				686645D824F08551009AFE35 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		687C3EEC24F08C2100E01B34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				687C3EED24F08C2100E01B34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				686645DF24F08551009AFE35 /* LaunchScreen.storyboard in Resources */,
-				686645DC24F08551009AFE35 /* Preview Assets.xcassets in Resources */,
+				687C3EEE24F08C2100E01B34 /* Preview Assets.xcassets in Resources */,
 				686645D924F08551009AFE35 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,9 +527,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687C3EDF24F08AFE00E01B34 /* RoundedCorner.swift in Sources */,
+				687C3EE324F08AFE00E01B34 /* PageView.swift in Sources */,
+				687C3EE224F08AFE00E01B34 /* PageViewController.swift in Sources */,
+				687C3EE024F08AFE00E01B34 /* PageViewContainer.swift in Sources */,
 				686645D324F08550009AFE35 /* AppDelegate.swift in Sources */,
+				687C3EE924F08AFE00E01B34 /* LoadingView.swift in Sources */,
 				686645D524F08550009AFE35 /* SceneDelegate.swift in Sources */,
+				687C3EE124F08AFE00E01B34 /* PageIndicator.swift in Sources */,
+				687C3EE624F08AFE00E01B34 /* LabeledTextEditor.swift in Sources */,
+				687C3EE424F08AFE00E01B34 /* ActivityIndicator.swift in Sources */,
 				686645D724F08550009AFE35 /* ContentView.swift in Sources */,
+				687C3EE524F08AFE00E01B34 /* LabeledSecureField.swift in Sources */,
+				687C3EE724F08AFE00E01B34 /* LottieView.swift in Sources */,
+				687C3EE824F08AFE00E01B34 /* LabeledTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,17 +574,6 @@
 			targetProxy = 686645F124F08551009AFE35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		686645DD24F08551009AFE35 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				686645DE24F08551009AFE35 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		686645F724F08551009AFE35 /* Debug */ = {
@@ -612,10 +699,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Lollie/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lollie/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 5B2H3TP95N;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lollie/Info.plist;
+				INFOPLIST_FILE = Lollie/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -634,10 +721,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Lollie/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lollie/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 5B2H3TP95N;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lollie/Info.plist;
+				INFOPLIST_FILE = Lollie/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
